@@ -79,7 +79,7 @@ If you already have Git installed:
 ## Contributor
 - Jong Duk Shinn
 
-## Special Thanks to:
+### Special Thanks to:
 Development:
 - Andre Yoon
 - Sangwoo Shim
