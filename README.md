@@ -1,4 +1,5 @@
 # Mandrova: Sensor Data Generator for Python3
+![logo](https://github.com/makinarocks/Mandrova/blob/master/logo.png)
 version 0.1
 
 ## Welcome! Annyeonghaseyo! 안녕하세요!
