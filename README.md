@@ -80,9 +80,12 @@ If you already have Git installed:
 - Jong Duk Shinn
 
 ## Special Thanks to:
+Development:
 - Andre Yoon
 - Sangwoo Shim
 - Yongsub Lim
 - Ki Hyun Kim
 - Byungchan Kim
+
+Logo Design:
 - Yujin Han
