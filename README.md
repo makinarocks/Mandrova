@@ -1,4 +1,4 @@
-# Mandrova: An Awesome Synthetic Sensor Data Generator for Python3
+# Mandrova: Sensor Data Generator for Python3
 version 0.1
 
 ## Welcome! Annyeonghaseyo! 안녕하세요!
@@ -68,7 +68,7 @@ First, you need to install "git" on your computer.
 
 Please refer to the following page to install git properly.
 
-[here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+`https://git-scm.com/book/en/v2/Getting-Started-Installing-Git`
 
 If you already have Git installed:
 
