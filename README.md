@@ -1,11 +1,11 @@
-# Mandrova: An Awesome Synthetic Sensor Data Generator for Python3
+# Mandrova: Sensor Data Generator for Python3
 version 0.1
 
 ## Welcome! Annyeonghaseyo! 안녕하세요!
 Mandrova is open-source python software for scientific data generation.  
 It supports stationary, non-stationary, and even user-specified generation scheme.  
 
-Mandrova means "make it" [만들어봐] in Korean.  
+Mandrova means "make it" [만들어봐|맨들어봐] in Korean.  
 Thus, Mandrova simply means "make sensor data" in the context of data generation.
 
 
@@ -68,7 +68,7 @@ First, you need to install "git" on your computer.
 
 Please refer to the following page to install git properly.
 
-[here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+`https://git-scm.com/book/en/v2/Getting-Started-Installing-Git`
 
 If you already have Git installed:
 
