@@ -5,7 +5,7 @@ version 0.1
 Mandrova is open-source python software for scientific data generation.  
 It supports stationary, non-stationary, and even user-specified generation scheme.  
 
-Mandrova means "make it" [만들어봐] in Korean.  
+Mandrova means "make it" [만들어봐|맨들어봐] in Korean.  
 Thus, Mandrova simply means "make sensor data" in the context of data generation.
 
 
