@@ -83,6 +83,6 @@ If you already have Git installed:
 - Andre Yoon
 - Sangwoo Shim
 - Yongsub Lim
-- Kihyun Kim
+- Ki Hyun Kim
 - Byungchan Kim
 - Yujin Han
