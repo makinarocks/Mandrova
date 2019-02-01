@@ -9,13 +9,6 @@ build 2019.01.21.18.30 (stable)
 contributor:
   Jong Duk Shinn
 
-milestone-1 (2018-12-17: data generation)
-milestone-2 (2018-12-18-4pm: data modification)
-milestone-3 (2018-12-18-6pm: null injection)
-stable-rc   (2018-12-19: more small features on the way)
-stable      (2018-12-31)
-release     (2019-01-25)
-
 """
 
 import copy
