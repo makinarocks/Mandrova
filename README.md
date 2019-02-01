@@ -78,3 +78,11 @@ If you already have Git installed:
 
 ## Contributor
 - Jong Duk Shinn
+
+## Special Thanks to:
+- Andre Yoon
+- Sangwoo Shim
+- Yongsub Lim
+- Kihyun Kim
+- Byungchan Kim
+- Yujin Han
