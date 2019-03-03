@@ -37,8 +37,7 @@ Generation Options
 ```python
 dg.generation_input.add_option(sensor_names="Hello", distribution="normal", mu=0, sigma=1)
 dg.generation_input.add_option(sensor_names="World", eq="x",
-                               initial={"x":0}, step={"x":1},
-                               multiprocessing=True)
+                               initial={"x":0}, step={"x":1})
 ```
 
 Generate
