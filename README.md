@@ -85,7 +85,7 @@ Development:
 - Sangwoo Shim
 - Yongsub Lim
 - Ki Hyun Kim
-- Byungchan Kim
+- Byungchan Kim (kbc8894@makinarocks.ai)
 
 Logo Design:
 - Yujin Han
