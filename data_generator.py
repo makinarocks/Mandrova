@@ -212,7 +212,6 @@ class SensorDataGenerator(object):
             ValueError -- [raise if frm is out of correct range]
             ValueError -- [raise if to is not an integer]
             ValueError -- [raise if to is out of correct range]
-        
         Returns:
             [int, int] -- [returns frm, to]
         """
@@ -1055,6 +1054,7 @@ class SensorDataGenerator(object):
         self.__check_data_existency()
         self.__check_sensor(sensors)
         frm, to = self.__check_frm_to(frm, to)
+        frm_idx,to_idx = frm, to
         index = list(self.data.index.values)
         frm, to = index[frm], index[to-1]
         sensors = list(sensors)
@@ -1062,11 +1062,15 @@ class SensorDataGenerator(object):
             sensors = self.sensor_names()
 
         if axis == 0:
-            if frm == 0 and to == self.sample_size:
+            if frm_idx == 0 and to_idx == self.sample_size:
                 self.data = self.data.iloc[::-1]
             else:
                 
-                self.data.loc[[frm,to],sensors] = self.data.loc[[to,frm], sensors].values
+                self.data.loc[frm:to,sensors] = self.data.loc[frm:to,sensors][::-1].values
+                index_list=self.data.index.to_list()
+                index_list[frm_idx:to_idx] = index_list[frm_idx:to_idx][::-1]
+                self.data.index = index_list
+                
         elif axis == 1:
             sensors.reverse()
             self.data = self.data[sensors]
